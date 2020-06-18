@@ -12,7 +12,7 @@ namespace CSharp8Samples
         //CSharp 8
         public static async Task AsynchronousStream8Demo()
         {
-            await foreach(var data in GenerateSequence8())
+            await foreach (var data in GenerateSequence8())
             {
                 Console.WriteLine(data);
             }
@@ -30,7 +30,7 @@ namespace CSharp8Samples
         //CSharp 7
         public static async Task AsynchronousStream7Demo()
         {
-            foreach(var data in await GenerateSequence7())
+            foreach (var data in await GenerateSequence7())
             {
                 Console.WriteLine(data);
             }

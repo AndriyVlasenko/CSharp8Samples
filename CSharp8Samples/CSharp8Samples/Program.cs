@@ -19,6 +19,8 @@ namespace CSharp8Samples
             //PatternMatching.SwitchExpression();
             //PatternMatching.TuplePatterns();
 
+            NullableReferenceTypes.Demo();
+
             ReadonlyMembers.WriteReadOnlyStruct();
 
             Console.ReadLine();
