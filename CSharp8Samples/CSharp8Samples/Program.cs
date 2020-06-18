@@ -13,7 +13,13 @@ namespace CSharp8Samples
 
             //IndicesAndRanges.GetLast();
             //IndicesAndRanges.GetLastTwo();
-            IndicesAndRanges.GetAllNumbers();
+            //IndicesAndRanges.GetAllNumbers();
+
+            //PatternMatching.IsExpression();
+            //PatternMatching.SwitchExpression();
+            //PatternMatching.TuplePatterns();
+
+            ReadonlyMembers.WriteReadOnlyStruct();
 
             Console.ReadLine();
         }
