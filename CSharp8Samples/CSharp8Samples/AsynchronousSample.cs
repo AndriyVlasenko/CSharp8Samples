@@ -49,11 +49,11 @@ namespace CSharp8Samples
 
         public static async Task AsyncDisposal()
         {
-            await using var resource = new DisposableObject();
-            //await using (var disposal = new DisposableObject())
-            //{
-            //    // do something
-            //}
+            //await using var resource = new DisposableObject();
+            await using (var disposal = new DisposableObject())
+            {
+                // do something
+            }
             //...
             Console.WriteLine("Release resource");
         }

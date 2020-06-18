@@ -11,6 +11,8 @@ namespace CSharp8Samples
             //await AsynchronousSample.AsynchronousStream8Demo();
             //await AsynchronousSample.AsyncDisposal();
 
+            //NullableReferenceTypes.Demo();
+
             //IndicesAndRanges.GetLast();
             //IndicesAndRanges.GetLastTwo();
             //IndicesAndRanges.GetAllNumbers();
@@ -19,10 +21,12 @@ namespace CSharp8Samples
             //PatternMatching.SwitchExpression();
             //PatternMatching.TuplePatterns();
 
-            NullableReferenceTypes.Demo();
+            //ReadonlyMembers.WriteReadOnlyStruct();
 
-            ReadonlyMembers.WriteReadOnlyStruct();
+            //StaticLocalFunction.Demo();
 
+            //Enhancement of interpolated verbatim strings
+            //$@"..." and @$"..." 
             Console.ReadLine();
         }
     }

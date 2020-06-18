@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
+#nullable disable
+
 namespace CSharp8Samples
 {
     public class NullableReferenceTypes
