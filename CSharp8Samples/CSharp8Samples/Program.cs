@@ -20,6 +20,7 @@ namespace CSharp8Samples
             //PatternMatching.IsExpression();
             //PatternMatching.SwitchExpression();
             //PatternMatching.TuplePatterns();
+            PatternMatching.PositionalPatterns();
 
             //ReadonlyMembers.WriteReadOnlyStruct();
 
